@@ -1,0 +1,172 @@
+@import url(./fonts/fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-white-default: #f9f4fb;
+  --primary-blue-600: #312d64;
+  --primary-pink-600: #b52184;
+  --primary-white: #fff;
+}
+
+body,
+h1,
+p,
+button,
+input,
+textarea,
+footer p {
+  font-family: "Mulish", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#mainSection {
+  background-color: var(--primary-white-default);
+  text-align: center;
+}
+
+#mainSection h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary-pink-600);
+  margin: 1.0625rem 0 0.3125rem;
+}
+
+#mainSection p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-blue-600);
+  margin-bottom: 2.1875rem;
+}
+
+#cardSection {
+  background-color: var(--primary-blue-600);
+}
+
+.imgArrow {
+  margin-bottom: 5.875rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  padding: 3.375rem 5.75rem;
+  align-items: center;
+}
+
+.item {
+  background-color: var(--primary-white);
+  padding: 1.625rem;
+  width: 22rem;
+  height: 100%;
+  border-radius: 1.25rem;
+}
+
+.item img {
+  object-fit: cover;
+  margin-bottom: 2.0625rem;
+}
+
+.item h2 {
+  font-size: 1.875rem;
+  font-weight: 900;
+  color: var(--primary-pink-600);
+  margin-bottom: 1.1875rem;
+}
+
+.item p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#contactSection {
+  background-color: var(--primary-white-default);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formWrapper {
+  margin: 4.875rem 0 4.0625rem;
+  height: 26.375rem;
+  width: 21.75rem;
+}
+
+.formWrapper h2 {
+  margin-bottom: 2.6875rem;
+  color: var(--primary-pink-600);
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+form input,
+textarea {
+  background: transparent;
+  border: 0.0938rem solid var(--primary-blue-600);
+  border-radius: 16px;
+  color: var(--primary-blue-600);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+form input {
+  height: 3rem;
+  padding: 0.75rem 1rem 0.75rem 0.875rem;
+}
+
+form textarea {
+  height: 7.875rem;
+  padding: 0.75rem 1rem 1rem;
+  max-width: 100%;
+  resize: vertical;
+  max-height: 200px;
+}
+
+button {
+  border: 0;
+  padding: 1rem;
+  width: 9.4375rem;
+  border-radius: 1rem;
+  color: var(--primary-white);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  background: rgb(52, 49, 147);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 49, 147, 1) 0%,
+    rgba(48, 44, 99, 1) 100%
+  );
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--primary-blue-600);
+  height: 4.875rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: var(--primary-white);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
