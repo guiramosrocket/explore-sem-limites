@@ -1,0 +1,42 @@
+@media (min-width: 1280px) {
+  #mainSection {
+    display: flex;
+    flex-direction: row;
+    gap: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+  }
+
+  #mainSection h1 {
+    font-size: 3.75rem;
+  }
+
+  #mainSection p {
+    font-size: 2rem;
+  }
+
+  .astronaut {
+    order: 1;
+    min-width: 30rem;
+  }
+
+  .card {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.75rem;
+  }
+
+  .item {
+    width: 22.875rem;
+    min-height: 28rem;
+  }
+
+  .item h2 {
+    font-size: 2.1875rem;
+  }
+
+  .item p {
+    font-size: 1.1875rem;
+  }
+}

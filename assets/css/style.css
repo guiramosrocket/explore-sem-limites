@@ -37,14 +37,14 @@ main {
   font-size: 2rem;
   font-weight: 900;
   color: var(--primary-pink-600);
-  margin: 1.0625rem 0 0.3125rem;
+  /* margin: 1.0625rem 0 0.3125rem; */
 }
 
 #mainSection p {
   font-size: 1.25rem;
   font-weight: 600;
   color: var(--primary-blue-600);
-  margin-bottom: 2.1875rem;
+  /* margin-bottom: 2.1875rem; */
 }
 
 #cardSection {
@@ -52,7 +52,7 @@ main {
 }
 
 .imgArrow {
-  margin-bottom: 5.875rem;
+  /* margin-bottom: 5.875rem; */
 }
 
 .card {
@@ -67,7 +67,6 @@ main {
   background-color: var(--primary-white);
   padding: 1.625rem;
   width: 22rem;
-  height: 100%;
   border-radius: 1.25rem;
 }
 
